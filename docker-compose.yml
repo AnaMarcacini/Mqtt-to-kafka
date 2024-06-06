@@ -9,7 +9,7 @@ services:
       timeout: 10s
       retries: 12
     ports:
-      - 1883:1883
+      - 1884:1883
       - 18083:18083
     volumes:
       - $PWD/emqx/cluster.hocon:/opt/emqx/data/configs/cluster.hocon
